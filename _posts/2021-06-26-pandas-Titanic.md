@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "파이썬 - 실습 Titanic"
+categories: ['programming','python']
+---
+
 # 파이썬 - 실습 Titanic
 
 ### Features 변수명 설명
