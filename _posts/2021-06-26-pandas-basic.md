@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "파이썬 - numpy 실습"
+categories: ['programming','python']
+---
+
 # 파이썬 - pandas 기초 실습
 
 ## 1. pandas 개요
