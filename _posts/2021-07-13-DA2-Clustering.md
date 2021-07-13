@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "데이터 분석 심화 2 - 군집 모델"
+categories: ['programming','python','data analysis']
+---
+
+
 # 데이터 분석 심화 2 - 군집 모델
 ## A. 클러스터링이 무엇인가
 1. 클러스터링의 개념
@@ -103,7 +110,7 @@ plt.show()
 
 
     
-![png](output_10_0.png)
+![output_10_0](https://user-images.githubusercontent.com/86539195/125451899-578ebd31-2aa9-47b6-bba5-024f001d897e.png)
     
 
 
@@ -133,7 +140,7 @@ plt.show()
 
 
     
-![png](output_11_1.png)
+![output_11_1](https://user-images.githubusercontent.com/86539195/125451891-795338f7-7ccb-4d1d-8d54-052185438dde.png)
     
 
 
@@ -262,7 +269,7 @@ plt.show()
 
 
     
-![png](output_14_0.png)
+![output_14_0](https://user-images.githubusercontent.com/86539195/125451876-3e22fc1f-193e-4269-8738-03bb7278d133.png)
     
 
 
@@ -297,7 +304,7 @@ plt.show()
 
 
     
-![png](output_17_0.png)
+![output_17_0](https://user-images.githubusercontent.com/86539195/125451854-793057c5-75f7-4dd3-b86f-ac2a44fd1577.png)
     
 
 
@@ -325,7 +332,7 @@ plt.show()
 
 
     
-![png](output_20_0.png)
+![output_20_0](https://user-images.githubusercontent.com/86539195/125451837-c1e8576e-9df3-456e-a183-349de7151ba9.png)
     
 
 
@@ -343,7 +350,7 @@ plt.show()
 
 
     
-![png](output_21_0.png)
+![output_21_0](https://user-images.githubusercontent.com/86539195/125451821-94c9a388-623a-48da-a0c8-8768bdc3ac23.png)
     
 
 
@@ -373,7 +380,7 @@ plt.show()
 
 
     
-![png](output_25_0.png)
+![output_25_0](https://user-images.githubusercontent.com/86539195/125451802-bbf17cae-10bc-4471-bcee-6a3b1f0802d0.png)
     
 
 
@@ -396,7 +403,7 @@ plt.show()
 
 
     
-![png](output_27_0.png)
+![output_27_0](https://user-images.githubusercontent.com/86539195/125451785-a99435fb-03f1-4d23-b1f8-b973f7e8decb.png)
     
 
 
@@ -436,7 +443,7 @@ plt.show()
 
 
     
-![png](output_32_0.png)
+![output_32_0](https://user-images.githubusercontent.com/86539195/125451753-dbef5c98-91f7-4f05-9964-d39afefc6514.png)
     
 
 
@@ -457,7 +464,7 @@ plt.show()
 
 
     
-![png](output_34_0.png)
+![output_34_0](https://user-images.githubusercontent.com/86539195/125451731-169feff0-2828-4016-b34a-988f8f5467b9.png)
     
 
 
