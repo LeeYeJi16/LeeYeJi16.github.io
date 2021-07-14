@@ -8,7 +8,7 @@
 
 ### 2. 퍼셉트론(Perceptron)의 동작원리
 
-![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202021-07-14%20093717.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202021-07-14%20093717.png)
+![화면 캡처 2021-07-14 093717](https://user-images.githubusercontent.com/86539195/125592413-eaa10854-f806-4cf8-91b8-2fe64f21b83d.png)
 
 - 그림의 원 : 뉴런(neuron) / 노드(node)
 - 가중치는 전류의 저항과 비슷한 의미(가중치가 크면 더 강한신호를 흘려 보냄)
@@ -84,7 +84,7 @@ print(Y)
 
 - 퍼셉트론에 편향(bias) 표현하기
 
-![%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202021-07-14%20095843.png](attachment:%ED%99%94%EB%A9%B4%20%EC%BA%A1%EC%B2%98%202021-07-14%20095843.png)
+![화면 캡처 2021-07-14 095843](https://user-images.githubusercontent.com/86539195/125592452-6090e713-cab9-431d-8dc7-f747d94b61bf.png)
 
 ### 3. 활성함수의 종류
 - Sigmoid function
@@ -245,7 +245,7 @@ plt.show()
 
 
     
-![png](output_26_1.png)
+![output_26_1](https://user-images.githubusercontent.com/86539195/125592515-0529e9d6-bb9c-4e63-987c-96c3d64b292e.png)
     
 
 
