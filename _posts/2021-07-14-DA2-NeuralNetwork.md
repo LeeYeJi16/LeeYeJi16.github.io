@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "데이터 분석 심화 2 - 신경망의 이해"
-categories: ['programming','python','data analysis']
+tags: ['programming','python','data analysis']
+toc: true
+toc_sticky: true
 ---
 
 
