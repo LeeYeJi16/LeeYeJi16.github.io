@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "YeJi Lee"
-  avatar           : "/assets/AREmoji_20210828_222816_2217.png"
+  avatar           : "assets/AREmoji_20210828_222816_2217.png"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
