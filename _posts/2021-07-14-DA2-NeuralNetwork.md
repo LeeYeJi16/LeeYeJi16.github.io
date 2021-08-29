@@ -9,7 +9,7 @@ toc_sticky: true
 ---
 
 
-# 데이터 분석 심화 2 - 신경망의 이해
+
 
 ## A. Perceptron
 
