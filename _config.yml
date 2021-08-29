@@ -280,28 +280,3 @@ defaults:
       comments:  true
       share: true
       related: true
-   
-docs:
-  - title: study
-    children:
-      - title: "2021 Data Campus"
-        url: /docs/quick-start-guide/
-      
-  - title: project
-    children:
-      - title: "data mining"
-        url: /docs/configuration/
-     
-  - title: etc
-    children:
-      - title: "writing"
-        url: /docs/posts/
-   
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
