@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: posts
 title:  "데이터 분석 심화 2 - 군집 모델"
 categories: ['programming','python','data analysis']
 ---
 
 
-# 데이터 분석 심화 2 - 군집 모델
+
 
 ## A. 클러스터링이 무엇인가
 1. 클러스터링의 개념
