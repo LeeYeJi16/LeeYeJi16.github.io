@@ -10,3 +10,30 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+
+docs:
+  - title: Study
+    children:
+      - title: "R"
+        url: /docs/r/
+      - title: "Python"
+        url: /docs/python/
+      - title: "Data Analytic"
+        url: /docs/data-analytic/
+      - title: "Deep Learning"
+        url: /docs/deep-learning/
+
+  - title: Project
+    children:
+      - title: "College"
+        url: /docs/college/
+      - title: "Competition"
+        url: /docs/competition/
+      
+  - title: Content
+    children:
+      - title: "Review"
+        url: /docs/review/
+      - title: "etc"
+        url: /docs/etc/
