@@ -7,7 +7,7 @@ tags: [aws, automl]
 
 ### 추천, 개인화 그리고 물류 예측 - 어떻게 시작하고 무엇을 준비해야 하는가? - 김민성 솔루션즈 아키텍트(AWS), 경희정 부장(CJ대한통운)
 
- {% include aws-review.html id="https://www.youtube.com/watch?v=PtHVqCDsoek" %}  
+ {% include aws-review.html PtHVqCDsoek="https://www.youtube.com/watch?v=PtHVqCDsoek" %}  
 
 
 > Amazon Forecast
