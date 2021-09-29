@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "파이썬 - 실습 Titanic"
 categories: ['python']
 tags: [pandas, numpy, practice]
