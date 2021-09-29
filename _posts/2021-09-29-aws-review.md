@@ -15,7 +15,7 @@ tags: [aws, automl]
 > 
 > AWS의 AutoML
 
-![1 (1)](https://user-images.githubusercontent.com/86539195/135283282-55acca13-92f6-4e75-8921-0ac311f19d8b.png)
+![1 (1)](https://user-images.githubusercontent.com/86539195/135284174-fc970d4f-d48b-43b0-8be6-bde76337fcb9.png)
 
 ![1 (2)](https://user-images.githubusercontent.com/86539195/135283294-1f3d4fe0-6fec-460b-b38e-9d88fa310fa9.png)
 
