@@ -1,7 +1,8 @@
 ---
 layout: posts
 title:  "데이터 분석 심화 2 - 군집 모델"
-categories: ['programming','python','data analysis']
+categories: ['algorithm']
+tags: [clustering, k-means, dbscan]
 ---
 
 
