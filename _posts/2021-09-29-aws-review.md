@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: [REVIEW] 추천, 개인화 그리고 물류 예측 - 어떻게 시작하고 무엇을 준비해야 하는가?
+title: 추천, 개인화 그리고 물류 예측 - 어떻게 시작하고 무엇을 준비해야 하는가?
 categories: ['interest']
 tags: [aws, automl]
 ---
