@@ -5,7 +5,6 @@ categories: ['algorithm']
 tags: [deep learning]
 ---
 
-# 데이터 분석 심화 2 - 딥러닝 프로그램
 
 ## A. 딥러닝을 이용한 분류 
 
