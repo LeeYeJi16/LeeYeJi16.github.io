@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "파이썬 - 실습 Titanic"
-categories: ['programming','python']
+categories: ['python']
+tags: [titanic, data analytic]
 ---
 
 # 파이썬 - 실습 Titanic
