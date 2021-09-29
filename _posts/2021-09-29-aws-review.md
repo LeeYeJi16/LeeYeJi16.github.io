@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 'AWS' X 'CJ대한통운' 물류 예측 PoC 
+title: AWS X CJ대한통운 물류 예측 PoC 
 categories: ['interest']
 tags: [aws, automl]
 ---
