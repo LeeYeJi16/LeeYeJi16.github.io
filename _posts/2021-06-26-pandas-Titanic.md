@@ -2,7 +2,7 @@
 layout: post
 title:  "파이썬 - 실습 Titanic"
 categories: ['python']
-tags: [titanic, pandas, data analytic]
+tags: [titanic, pandas, practice]
 ---
 
 # 파이썬 - 실습 Titanic
