@@ -1,7 +1,8 @@
 ---
 layout: posts
 title:  "파이썬 - pandas 기초 실습"
-categories: ['programming','python']
+categories: ['python']
+tags: [pandas]
 ---
 
 
