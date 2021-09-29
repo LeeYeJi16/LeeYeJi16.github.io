@@ -1,3 +1,10 @@
+---
+layout: posts
+title:  "데이터 분석 심화 2 - 딥러닝 프로그램"
+categories: ['algorithm']
+tags: [deep learning]
+---
+
 # 데이터 분석 심화 2 - 딥러닝 프로그램
 
 ## A. 딥러닝을 이용한 분류 
@@ -347,7 +354,7 @@ for i in range(5):
 
 
     
-![png](output_8_1.png)
+![output_8_1](https://user-images.githubusercontent.com/86539195/135232982-0a50638b-7dc4-446d-88cd-443f5662af1b.png)
     
 
 
@@ -355,7 +362,7 @@ for i in range(5):
 
 
     
-![png](output_8_3.png)
+![output_8_3](https://user-images.githubusercontent.com/86539195/135233001-21fbbecf-fe73-4e65-bcc4-981734545765.png)
     
 
 
@@ -363,7 +370,7 @@ for i in range(5):
 
 
     
-![png](output_8_5.png)
+![output_8_5](https://user-images.githubusercontent.com/86539195/135233018-327756d5-3881-4058-b737-61a8c384543c.png)
     
 
 
@@ -371,7 +378,7 @@ for i in range(5):
 
 
     
-![png](output_8_7.png)
+![output_8_7](https://user-images.githubusercontent.com/86539195/135233045-1c02c471-ee80-4766-af7b-7ed567462b28.png)
     
 
 
@@ -379,7 +386,7 @@ for i in range(5):
 
 
     
-![png](output_8_9.png)
+![output_8_9](https://user-images.githubusercontent.com/86539195/135233073-54b4d27f-3acd-4e4e-9e8a-1707e79fab70.png)
     
 
 
@@ -570,7 +577,7 @@ for i in range(20):
 
 
     
-![png](output_23_2.png)
+![output_23_2](https://user-images.githubusercontent.com/86539195/135233122-703d3f40-5cc1-4f8f-b697-b6f93f68c3c1.png)
     
 
 
@@ -581,7 +588,7 @@ for i in range(20):
 
 
     
-![png](output_23_5.png)
+![output_23_5](https://user-images.githubusercontent.com/86539195/135233139-99642630-ca02-4ae0-9d01-be7d443946ed.png)
     
 
 
@@ -592,7 +599,7 @@ for i in range(20):
 
 
     
-![png](output_23_8.png)
+![output_23_8](https://user-images.githubusercontent.com/86539195/135233161-7000dd9a-a2a9-4243-9b2a-f8fce10de895.png)
     
 
 
@@ -603,7 +610,7 @@ for i in range(20):
 
 
     
-![png](output_23_11.png)
+![output_23_11](https://user-images.githubusercontent.com/86539195/135233179-ccb287cd-202b-457f-aea4-62fbaf02117e.png)
     
 
 
@@ -614,7 +621,7 @@ for i in range(20):
 
 
     
-![png](output_23_14.png)
+![output_23_14](https://user-images.githubusercontent.com/86539195/135233201-4d289f73-e9b6-4ce2-b6a6-8b777859d0e9.png)
     
 
 
@@ -625,7 +632,7 @@ for i in range(20):
 
 
     
-![png](output_23_17.png)
+![output_23_17](https://user-images.githubusercontent.com/86539195/135233216-878f26a3-18f4-49ae-8401-df5d9ed759af.png)
     
 
 
@@ -636,7 +643,7 @@ for i in range(20):
 
 
     
-![png](output_23_20.png)
+![output_23_20](https://user-images.githubusercontent.com/86539195/135233228-b7a5b496-c87c-4e9d-9b47-1384f46b7189.png)
     
 
 
@@ -647,7 +654,7 @@ for i in range(20):
 
 
     
-![png](output_23_23.png)
+![output_23_23](https://user-images.githubusercontent.com/86539195/135233242-8c95948e-2f04-4a73-a15b-dad2fc06056f.png)
     
 
 
@@ -658,7 +665,7 @@ for i in range(20):
 
 
     
-![png](output_23_26.png)
+![output_23_26](https://user-images.githubusercontent.com/86539195/135233264-f0f7d7de-9157-4ad8-a96b-763892447794.png)
     
 
 
@@ -669,7 +676,7 @@ for i in range(20):
 
 
     
-![png](output_23_29.png)
+![output_23_29](https://user-images.githubusercontent.com/86539195/135233276-53b35cd7-4ea0-4e22-87df-d2591e58bf78.png)
     
 
 
@@ -680,7 +687,7 @@ for i in range(20):
 
 
     
-![png](output_23_32.png)
+![output_23_32](https://user-images.githubusercontent.com/86539195/135233302-abfb029c-e9d1-4c0d-ab4c-7492ac9d66c1.png)
     
 
 
@@ -691,7 +698,7 @@ for i in range(20):
 
 
     
-![png](output_23_35.png)
+![output_23_35](https://user-images.githubusercontent.com/86539195/135233319-009d60dd-23f3-44cf-9ec2-397a794fb407.png)
     
 
 
@@ -702,7 +709,7 @@ for i in range(20):
 
 
     
-![png](output_23_38.png)
+![output_23_38](https://user-images.githubusercontent.com/86539195/135233333-584e4e31-abcc-4219-99ef-a4764fd2703a.png)
     
 
 
@@ -713,7 +720,7 @@ for i in range(20):
 
 
     
-![png](output_23_41.png)
+![output_23_41](https://user-images.githubusercontent.com/86539195/135233358-39471bcb-744b-475f-95d0-a8a114e1000c.png)
     
 
 
@@ -724,7 +731,7 @@ for i in range(20):
 
 
     
-![png](output_23_44.png)
+![output_23_44](https://user-images.githubusercontent.com/86539195/135233379-c9ea5dda-4f30-440f-a318-5adb8c62f8da.png)
     
 
 
@@ -735,7 +742,7 @@ for i in range(20):
 
 
     
-![png](output_23_47.png)
+![output_23_47](https://user-images.githubusercontent.com/86539195/135233400-1e5adaef-a35c-4bff-81fe-d7b925e9b667.png)
     
 
 
@@ -746,7 +753,7 @@ for i in range(20):
 
 
     
-![png](output_23_50.png)
+![output_23_50](https://user-images.githubusercontent.com/86539195/135233416-4e04e0a4-82d8-4df9-bb8b-1a3b16796fda.png)
     
 
 
@@ -757,7 +764,7 @@ for i in range(20):
 
 
     
-![png](output_23_53.png)
+![output_23_53](https://user-images.githubusercontent.com/86539195/135233435-a4855f1b-3d63-43da-84b7-700d9ae32b7f.png)
     
 
 
@@ -768,7 +775,7 @@ for i in range(20):
 
 
     
-![png](output_23_56.png)
+![output_23_56](https://user-images.githubusercontent.com/86539195/135233448-b7f7d311-6c53-476b-999f-350eba26472a.png)
     
 
 
@@ -779,7 +786,7 @@ for i in range(20):
 
 
     
-![png](output_23_59.png)
+![output_23_59](https://user-images.githubusercontent.com/86539195/135233467-fa68e621-f757-4170-ae9a-110d52617f33.png)
     
 
 
@@ -847,7 +854,7 @@ for i in range(5):
 
 
     
-![png](output_29_1.png)
+![output_29_1](https://user-images.githubusercontent.com/86539195/135233497-a1b549a0-224f-4e1a-b005-aecc4fec8f7a.png)
     
 
 
@@ -855,7 +862,7 @@ for i in range(5):
 
 
     
-![png](output_29_3.png)
+![output_29_3](https://user-images.githubusercontent.com/86539195/135233509-5f657b9e-8ce3-4d46-afab-f76b286f12b9.png)
     
 
 
@@ -863,7 +870,7 @@ for i in range(5):
 
 
     
-![png](output_29_5.png)
+![output_29_5](https://user-images.githubusercontent.com/86539195/135233520-37888f53-4b5a-4ca3-b61e-bec9e07f879a.png)
     
 
 
@@ -871,7 +878,7 @@ for i in range(5):
 
 
     
-![png](output_29_7.png)
+![output_29_7](https://user-images.githubusercontent.com/86539195/135233533-c79d052c-e132-4ac7-abe3-4ebeab14f5fe.png)
     
 
 
@@ -879,7 +886,7 @@ for i in range(5):
 
 
     
-![png](output_29_9.png)
+![output_29_9](https://user-images.githubusercontent.com/86539195/135233550-8947e669-4a85-46c6-b820-4d2ce3ba8aae.png)
     
 
 
@@ -1084,7 +1091,7 @@ plt.show()
 
 
     
-![png](output_39_0.png)
+![output_39_0](https://user-images.githubusercontent.com/86539195/135233589-09839e98-5853-4a01-ba2c-19cb95d0c78a.png)
     
 
 
@@ -1205,7 +1212,7 @@ plt.show()
 
 
     
-![png](output_48_0.png)
+![output_48_0](https://user-images.githubusercontent.com/86539195/135233630-8bd3c70b-cb3c-427a-9cbb-564d1a69a941.png)
     
 
 
@@ -1235,7 +1242,7 @@ plt.show()
 
 
     
-![png](output_50_1.png)
+![output_50_1](https://user-images.githubusercontent.com/86539195/135233659-76745b77-4b51-4d7f-8a18-0248d2766b5e.png)
     
 
 
@@ -1322,7 +1329,7 @@ plt.show()
 
 
     
-![png](output_51_1.png)
+![output_51_1](https://user-images.githubusercontent.com/86539195/135233710-eb4aa1bb-e6de-41c0-af9a-100dbc54929e.png)
     
 
 
@@ -1416,7 +1423,7 @@ plt.show()
 
 
     
-![png](output_55_0.png)
+![output_55_0](https://user-images.githubusercontent.com/86539195/135233737-c50783df-b1d8-4839-898f-5af55f365e9c.png)
     
 
 
@@ -1503,7 +1510,7 @@ plt.show()
 
 
     
-![png](output_56_1.png)
+![output_56_1](https://user-images.githubusercontent.com/86539195/135233759-79060330-5a0f-4663-ae7b-4b9704da6c7b.png)
     
 
 
@@ -1809,7 +1816,7 @@ print()
 
 
     
-![png](output_62_0.png)
+![output_62_0](https://user-images.githubusercontent.com/86539195/135233823-91e4ade3-cdad-41bd-a65c-da45fa08ba31.png)
     
 
 
