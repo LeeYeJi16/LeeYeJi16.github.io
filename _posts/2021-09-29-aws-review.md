@@ -43,10 +43,10 @@ CJ대한통운과 AWS의 PoC
 
 ![1 (7)](https://user-images.githubusercontent.com/86539195/135283310-d9f3e86b-a596-4854-870e-e57d55035faf.png)
 
-![1 (8)](https://user-images.githubusercontent.com/86539195/135283312-2c823a67-cb52-4e50-9c0c-0b4fcc0c6cd8.png)
-
 기존 CJ대한통운의 예측 모형은 서브터미널별로 적용되고 있고   
 알고리즘은 위와 같은 알고리즘을 사용하였다.
+
+![1 (8)](https://user-images.githubusercontent.com/86539195/135283312-2c823a67-cb52-4e50-9c0c-0b4fcc0c6cd8.png)
 
 ![1 (9)](https://user-images.githubusercontent.com/86539195/135283315-a39e7c7f-3af3-4284-b19d-ccf863e4ca3d.png)
 
@@ -68,3 +68,5 @@ AutoML: Forecast 안에는 11개의 알고리즘이 속해있고 이중 최적�
 
 내가 사용해본 알고리즘은 ARIMA, ETS, Prophet 정도   
 나머지는 알아보자!
+
+https://docs.aws.amazon.com/ko_kr/forecast/latest/dg/aws-forecast-choosing-recipes.html
