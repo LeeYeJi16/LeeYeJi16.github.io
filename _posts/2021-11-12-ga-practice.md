@@ -24,3 +24,24 @@ tags: [GA, BA, PM]
 ===
 목표는 한번 만들면 수정할 수 없으므로 신중하게 만들어야 함   
 테스트 보기를 이용하면 실수 없이 만들 수 있음   
+
+![screencapture-analytics-google-analytics-web-2021-11-12-15_43_36](https://user-images.githubusercontent.com/86539195/141422444-d84d2ce2-69ad-4f4e-800c-07e4a2e2290a.png)
+
+목표 설정
+- 템플릿
+- 맞춤설정 ◀
+
+목표 유형
+- 도착 ◀
+- 시간
+- 세션당 페이지 수
+- 이벤트
+
+목표 세부정보
+- 도착페이지가 될 URL 붙여넣기
+
+![screencapture-analytics-google-analytics-web-2021-11-12-15_44_09](https://user-images.githubusercontent.com/86539195/141422453-1f0577a9-cdbc-419c-8869-78e71f7bcc82.png)
+
+목표는 실시간 보고서 > 전환수 보고서에서 확인할 수 있음
+
+테스트보기를 전체 웹사이트 보고서에 옮기기 위해서는 공유 > 템플릿 링크 공유 > URL 복사해 새 탭에 붙여넣기 > 보기선택창 실행
