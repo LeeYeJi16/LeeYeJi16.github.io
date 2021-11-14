@@ -68,7 +68,7 @@ tags: [GA, BA, PM]
 
 PC보기 / 모바일보기
 -----
-보기 > 보기 설정 > 보기 복사
+보기 > 보기 설정 > 보기 복사   
 *보기 복사하는 이유는 필터를 혼용하여 쓰고 있을 때 일일이 설정하는 수고를 덜기 위해서*
 
 ![screencapture-analytics-google-analytics-web-2021-11-14-10_54_53](https://user-images.githubusercontent.com/86539195/141664466-55e6a2f8-f598-49d6-93a3-f07f2b79552c.png)
