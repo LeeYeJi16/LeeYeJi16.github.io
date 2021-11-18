@@ -177,13 +177,19 @@ Micro Goal
 
 ## 4.실습 1 목표 마케팅 퍼널 설정하기
 
+![1](https://user-images.githubusercontent.com/86539195/142450735-a98438f4-8b3d-4046-9a2c-347a359a8d12.png)
+
 
 
 ## 5.실습 2 광고 성과 지표
 
+![2](https://user-images.githubusercontent.com/86539195/142450778-feabbe2f-3478-4194-ac21-6cd95043b5ee.png)
+
 
 
 ## 6.실습 3 미디어믹스
+
+![3](https://user-images.githubusercontent.com/86539195/142450802-6a0e7520-805a-49cf-a4c0-ada498821e21.png)
 
 
 
