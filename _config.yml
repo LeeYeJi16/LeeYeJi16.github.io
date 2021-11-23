@@ -20,7 +20,7 @@ title                    : "Lee's note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "YeJi Lee"
-description              : "Industrial Engineering / Data Sience"
+description              : "Industrial Engineering / Data Science"
 url                      : "https://LeeYeJi16.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
