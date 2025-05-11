@@ -78,6 +78,9 @@ tags: [linux]
   |`-v`|version:fdisk의 버전 정보를 출력|
   |`-t`|type:파일 시스템의 타입을 지정|
   |`-s`|size:특정 파티션의 크기를 블록 단위로 출력|
+  |`-p`|print:파티션 정보 출력|
+  |`-q`|quit: 변경된 파티션 정보 저장 없이 종료|
+  |`-d`|delete: 파티션 삭제|
 
 - netstat 명령어 주요 옵션
   
