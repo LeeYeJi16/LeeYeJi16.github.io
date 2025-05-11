@@ -124,7 +124,19 @@ tags: [linux]
 - 연산자: + (추가), - (제거), = (지정)
 - 권한: r (읽기), w (쓰기), x (실행)
 - 예시: `chmod a=r program.c`
-  - 모든 사용자에게 읽기만 설정, 기존 권한은 초기화 
+  - 모든 사용자에게 읽기만 설정, 기존 권한은 초기화
+ 
+### 옵션
+
+|옵션|설명|예시|
+|:----:|:----:|:----:|
+| **`-R`** | 하위 디렉터리까지 **재귀적으로** 변경 | `chown -R user:group /data` |
+| **`-f`** | 에러 메시지를 **출력하지 않음** | `chown -f user file` |
+| **`-v`** | 변경된 내용을 **자세히 출력** | `chown -v user file` |
+| **`-r`** | Deprecated, 더 이상 사용되지 않음 (과거의 Recursive) | |
+| **`-c`** | Changes, 변경된 항목만 출력 | |
+| **`--from=current_owner`** | **현재 소유자**가 특정 사용자일 때만 변경  | `chown --from=root user file` |
+| **`--reference=file`** | 다른 파일의 소유자/그룹을 **참조하여** 변경 | `chown --reference=template file` |
 
 
 ## 환경변수
