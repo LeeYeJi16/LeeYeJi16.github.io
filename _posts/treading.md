@@ -1,0 +1,143 @@
+# Treading
+
+이 문서는 **대량의 POST 요청을 반복 실행하면서, 요청 간 선후 관계(연속적인 두 개의 요청)를 유지해야 했던 상황**에서 효율적으로 테스트를 수행하기 위해 작성된 코드를 담았다.
+
+실무 테스트에서는 단순히 요청을 많이 보내는 것보다,
+
+- 첫 번째 요청의 결과를 기반으로
+- 두 번째 요청을 반드시 이어서 호출해야 하는
+    
+    구조가 필요한 경우가 있다. 이때 요청 수가 많아지면 단일 흐름으로는 테스트 시간이 과도하게 길어지고, 그렇다고 무작정 병렬로 실행하면 **요청 순서가 깨지거나 상태가 꼬이는 문제**가 발생한다.
+    
+
+이 스크립트는 이런 제약 조건 속에서,
+
+- 요청 단위는 Threading으로 병렬 처리하되
+- 하나의 테스트 흐름 안에서는 요청 순서를 보장하고
+- 서로 다른 테스트 흐름 간에는 상태를 공유하지 않는
+    
+    구조를 목표로 설계되었다.
+    
+
+## 테스트 상황
+
+아래에는 실제 테스트에서 사용한 Threading 기반 자동화 스크립트를 그대로 첨부하고, **대량 요청 + 연속 호출이라는 조건을 어떻게 풀었는지**를 코드 중심으로 설명한다.
+
+![image.png](attachment:4f567021-e905-4c06-be31-0e1825d13313:image.png)
+
+우선 이 시나리오에 요청 흐름 동작은 위와 같다.
+Validation check가 먼저 이루어지고, check 결과 이상이 없는 경우 해당 Value 가 
+Action 으로 요청되며 동작이 완료된다.
+
+## python 코드
+
+```jsx
+import requests
+import threading
+
+# ===== API 정보 =====
+VALIDATION_URL = "validation"
+ACTION_URL = "action"
+
+TOKEN = "TOKEN"
+
+HEADERS = {
+    "X-Auth-Token": TOKEN,
+    "Content-Type": "application/json"
+}
+# ===================
+
+def validation_then_create(index):
+    # index: 1 ~ 10
+    val_value = f"{index - 1}"
+    val_name = f"{index}.test."
+
+    actions = [val_value]
+
+    # 1️⃣ validation check 진행 
+    validation_body = {
+        "Type": "A",
+        "code": actions
+    }
+
+    v_res = requests.post(
+        VALIDATION_URL,
+        json=validation_body,
+        headers=HEADERS
+    )
+
+    print(f"[{index}] validation status:", v_res.status_code)
+    print(f"[{index}] validation body:", v_res.text)
+
+    if v_res.status_code != 200:
+        print(f"[{index}] validation 실패")
+        return
+
+    v_json = v_res.json()
+    if v_json.get("status") != 200:
+        print(f"[{index}] validation 응답 status 실패")
+        return
+
+    # 2️⃣ validation 이 정상인 경우 action 이어서 진행 
+    create_body = [
+        {
+            "name": val_name,
+            "Type": "A",
+            "data": 300,
+            "actions": actions
+        }
+    ]
+
+    c_res = requests.post(
+        ACTION_URL,
+        json=create_body,
+        headers=HEADERS
+    )
+
+    print(f"[{index}] create status:", c_res.status_code)
+    print(f"[{index}] create body:", c_res.text)
+
+# ===== 10회 반복 실행 =====
+threads = []
+
+for i in range(1, 11):
+    t = threading.Thread(target=validation_then_create, args=(i,))
+    threads.append(t)
+    t.start()
+
+for t in threads:
+    t.join()
+
+print("모든 요청 완료")
+
+```
+
+---
+
+## 회고 포인트
+
+### 1. 연속 요청을 하나의 테스트 단위로 묶은 설계의 중요성
+
+이 자동화의 핵심은 POST 요청이 두 번이라는 점이 아니라,
+
+**첫 번째 요청(validation)의 결과가 두 번째 요청(action)의 전제 조건**이라는 구조였다.
+
+그래서 요청을 개별적으로 병렬 처리하지 않고,
+
+하나의 Thread 안에서 validation → action 흐름을 고정했다.
+
+이 방식 덕분에 대량 요청을 병렬로 실행하면서도, 각 테스트의 의미와 순서는 깨지지 않았다.
+
+---
+
+### 2. Threading은 조건이 맞을 때만 의미가 있다
+
+이 구조는 테스트 단위 간 상태 공유가 없고,
+
+요청 흐름이 명확히 분리되어 있기 때문에 안정적으로 동작했다.
+
+반대로, 하나의 리소스를 동시에 조작하거나
+
+요청 간 상태 의존성이 강한 테스트에는 그대로 적용하기 어렵다.
+
+Threading은 범용 해법이 아니라, **조건이 맞을 때 선택하는 제한적인 수단**이라는 점을 분명히 인식하게 됐다.
