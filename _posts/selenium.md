@@ -1,4 +1,12 @@
-# Selenium
+---
+layout: posts
+title: Selenium
+categories: ['python']
+tags: [selenium]
+---
+
+Selenium
+========
 
 실무에서 Selenium은 "자동화하면 좋아 보이니까" 쓰는 도구가 아니다. **릴리즈 이후 바로 깨질 수 있는 핵심 UI 흐름을 빠르게 감지하기 위한 최소한의 안전장치**다.
 
