@@ -1,4 +1,12 @@
-# Postman
+---
+layout: posts
+title: Postman
+categories: ['sqa']
+tags: [postman]
+---
+Postman
+========
+
 
 Postman은 단순한 API 호출 도구가 아니라, **클라이언트 입장에서 서버를 직접 두드려보며 동작을 검증하는 가장 현실적인 수단**이다. UI 뒤에 가려진 실제 API 요청·응답을 분리해서 확인할 수 있고, 파라미터 하나만 바꿔도 서버가 어떻게 반응하는지 즉시 확인할 수 있다.
 
