@@ -32,7 +32,8 @@ Treading
 
 아래에는 실제 테스트에서 사용한 Threading 기반 자동화 스크립트를 그대로 첨부하고, **대량 요청 + 연속 호출이라는 조건을 어떻게 풀었는지**를 코드 중심으로 설명한다.
 
-![image.png](attachment:4f567021-e905-4c06-be31-0e1825d13313:image.png)
+<img width="1016" height="216" alt="image" src="https://github.com/user-attachments/assets/b6075bd0-79dd-4b79-beb7-91794574ef27" />
+
 
 우선 이 시나리오에 요청 흐름 동작은 위와 같다.
 Validation check가 먼저 이루어지고, check 결과 이상이 없는 경우 해당 Value 가 
