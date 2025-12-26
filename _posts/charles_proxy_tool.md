@@ -1,4 +1,9 @@
-# Charles Proxy
+---
+layout: posts
+title: Charles Proxy
+categories: ['sqa']
+tags: [charles]
+---
 
 SQA 업무에서 Charles Proxy는 **클라이언트와 서버 사이의 실제 통신을 눈으로 확인하고, 의도적으로 변형하여 검증할 수 있는 핵심 도구**다. 단순히 API 요청·응답을 조회하는 수준을 넘어, 네트워크 장애 상황, 서버 오류, 예외 응답 등을 인위적으로 만들어낼 수 있기 때문에 UI 테스트만으로는 검증하기 어려운 시나리오를 효과적으로 보완한다.
 
