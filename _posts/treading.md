@@ -1,4 +1,13 @@
-# Treading
+---
+layout: posts
+title: Treading
+categories: ['sqa']
+tags: [Treading]
+---
+
+Treading
+========
+
 
 이 문서는 **대량의 POST 요청을 반복 실행하면서, 요청 간 선후 관계(연속적인 두 개의 요청)를 유지해야 했던 상황**에서 효율적으로 테스트를 수행하기 위해 작성된 코드를 담았다.
 
