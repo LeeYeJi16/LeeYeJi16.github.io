@@ -280,6 +280,8 @@ defaults:
       comments:  true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
       
   # _docs
   - scope:
@@ -288,10 +290,3 @@ defaults:
     values:
       sidebar:
         nav: "docs"
-
-# related-posts
-related_posts:
-  enabled: true
-  max_count: 3
-  min_score: 1
-
