@@ -1,12 +1,10 @@
 ---
 layout: posts
-title: 테스트 관리 도구
+title: "[QA Tools] 테스트 관리 도구"
 categories: ['sqa']
 tags: [tool]
 ---
 
-테스트 관리 도구
-========
 
 ## SQA 관점에서의 협업·테스트 관리 도구 개요
 
