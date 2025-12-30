@@ -290,8 +290,6 @@ defaults:
         nav: "docs"
 
 # related-posts
-lsi: false
-
 related_posts:
   enabled: true
   max_count: 3
