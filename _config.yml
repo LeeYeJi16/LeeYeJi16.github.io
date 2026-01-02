@@ -279,9 +279,10 @@ defaults:
       read_time: true
       comments:  true
       share: true
-      related: true
+      related: false
       toc: true
       toc_sticky: true
+      max_count: 3
       
   # _docs
   - scope:
