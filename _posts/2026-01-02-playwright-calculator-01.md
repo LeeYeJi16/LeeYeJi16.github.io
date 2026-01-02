@@ -1,10 +1,9 @@
---
+---
 layout: posts
 title: "[Playwright] 요금 계산기 테스트 - 기본 시나리오"
 categories: ['sqa']
 tags: [playwright]
 ---
-
 <br/>
 
 ## 1. 테스트 대상 개요
